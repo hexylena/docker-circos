@@ -4,6 +4,6 @@ This is a containerized circos. For more information on circos please visit the 
 
 To use this container, I recommend mounting a local data volume at runtime and interactively running your circos config script. As an example, at the docker prompt, run:
 
-    docker run -it -v $(pwd)/example:/input circos -conf /input/circos.conf
+    docker run -it -v $(pwd)/example:/input erasche/circos:latest -conf /input/circos.conf
 
 In this case, the example directory contains **_all_** files necessary to compile your circos image, including data and configuration.
