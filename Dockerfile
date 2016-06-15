@@ -24,4 +24,6 @@ RUN mkdir /opt && cd /opt && \
 
 ENV PATH /opt/circos-${CIRCOS_VERSION}/bin:$PATH
 
-CMD ["circos"]
+ADD entrypoint.sh /
+
+ENTRYPOINT ["/entrypoint.sh"]
