@@ -1,7 +1,5 @@
 FROM alpine
 
-MAINTAINER Eric Rasche <esr@tamu.edu>
-
 
 #RUN wget http://circos.ca/distribution/lib/libpng-1.6.14.tar.gz
 
